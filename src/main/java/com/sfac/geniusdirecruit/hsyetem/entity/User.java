@@ -1,6 +1,6 @@
 package com.sfac.geniusdirecruit.hsyetem.entity;
 
-import com.sfac.geniusdirecruit.qsystem.entity.ResultEntity;
+import com.sfac.geniusdirecruit.common.entity.ResultEntity;
 import lombok.Data;
 
 import javax.persistence.*;

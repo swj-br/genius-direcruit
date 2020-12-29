@@ -1,9 +1,8 @@
 package com.sfac.geniusdirecruit.hsyetem.controller;
 
-import com.sfac.geniusdirecruit.hsyetem.dao.UserDao;
 import com.sfac.geniusdirecruit.hsyetem.entity.User;
 import com.sfac.geniusdirecruit.hsyetem.service.UserService;
-import com.sfac.geniusdirecruit.qsystem.entity.ResultEntity;
+import com.sfac.geniusdirecruit.common.entity.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,7 +20,8 @@ public class UserController {
      * {"name":"电子产品"}
      */
     @PostMapping(value = "/category", consumes = "application/json")
-    public ResultEntity<User> insertCategory(@RequestBody User user) {
-        return userService.insertUser(user);
+    public String insertCategory(@RequestBody User user) {
+        userService.insertUser(user);
+        return "This is test module desc.";
     }
 }

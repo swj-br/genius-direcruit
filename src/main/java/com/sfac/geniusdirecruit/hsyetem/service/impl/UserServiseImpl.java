@@ -3,7 +3,7 @@ package com.sfac.geniusdirecruit.hsyetem.service.impl;
 import com.sfac.geniusdirecruit.hsyetem.dao.UserDao;
 import com.sfac.geniusdirecruit.hsyetem.entity.User;
 import com.sfac.geniusdirecruit.hsyetem.service.UserService;
-import com.sfac.geniusdirecruit.qsystem.entity.ResultEntity;
+import com.sfac.geniusdirecruit.common.entity.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

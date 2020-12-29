@@ -1,4 +1,4 @@
-package com.sfac.geniusdirecruit.qsystem.entity;
+package com.sfac.geniusdirecruit.common.entity;
 
 public class ResultEntity<T> {
     private int status;
